@@ -13,5 +13,8 @@ describe("Drinkers", () => {
     test("Should return 'Mike' when A is 2 and B is 2", () => {
         expect(game(2, 2)).toBe("Mike")
     });
+    test("Should return 'Joe' when A is 2 and B is 6", () => {
+        expect(game(2, 6)).toBe("Joe")
+    });
 
 });
